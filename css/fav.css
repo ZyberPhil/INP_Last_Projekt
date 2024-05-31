@@ -4,7 +4,7 @@ body {
   font-size: medium; /* Die Schriftgröße wird auf medium festgelegt */
   font-family: 'Roboto', sans-serif; /* Die Schriftart wird auf Roboto oder eine sans-serif Schriftart festgelegt */
   background-color: #f0f0f0; /* Die Hintergrundfarbe wird auf ein helles Grau (#f0f0f0) gesetzt */
-  background-image: url("../media/fluid.jpg"); /* Eine Hintergrundbild-URL wird festgelegt */
+  background-image: url("../img/fluid.jpg"); /* Eine Hintergrundbild-URL wird festgelegt */
   border-radius: 10px; /* Ein abgerundeter Rand mit 10 Pixeln wird hinzugefügt */
   background-repeat: no-repeat; /* Das Hintergrundbild wird nicht wiederholt */
   background-size: cover; /* Das Hintergrundbild wird so skaliert, dass es den gesamten Bereich abdeckt */

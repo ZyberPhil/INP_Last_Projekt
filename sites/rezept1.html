@@ -3,22 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="../css/rezept1.css">
     <title>Rezepte</title>
 </head>
 <body>
     <header>
-        <h1>Modernes Rezepte</h1>
+        <h1>Moderne Rezepte</h1>
     </header>
-    <!--
         <nav>
-        <a href="#">Startseite</a>
-        <a href="#">Rezepte</a>
-        <a href="#">Über uns</a>
-        <a href="#">Kontakt</a>
+        <a href="../index.html">Weiterleitungswebsite</a>
     </nav>
-    
--->
     <div class="container">
         <div class="recipe">
             <h2>Spaghetti Carbonara</h2>
@@ -34,8 +28,8 @@
                 <li data-original="1    ">Priese/n Pfeffer</li>
                 <li data-original="1    ">Priese/n Salz</li>
             </ul>
-            
-    <img class="img-links" src="/image/image.png"/>
+
+    <img class="img-links" src="../img/Pasta2.png"/>
             <p>Zubereitung:</p>
             <ol>
                 <li>Spaghetti in kochendem Salzwasser al dente kochen.</li>
@@ -46,21 +40,21 @@
                 <li>Mit Salz und zusätzlichem Pfeffer abschmecken und servieren.</li>
             </ol>
 
-    <img class="img-rechts" src="/image/Pasta.jpg"/>
+    <img class="img-rechts" src="../img/Pasta.jpg"/>
  <div class="clearer"></div>
     </div>
 
 </div>
-    
+
     <footer>
     </footer>
 
-    <script>    
+    <script>
         var portionen = document.getElementById('portionen').value;
         var zutatenliste = document.getElementById('zutatenliste');
         var zutaten = zutatenliste.getElementsByTagName('li');
-    
-    
+
+
         for (var i = 0; i < zutaten.length; i++) {
             var originalZutat = parseFloat(zutaten[i].getAttribute('data-original'));
             var neueMenge = originalZutat * portionen;
@@ -70,7 +64,7 @@
             var portionen = document.getElementById('portionen').value;
             var zutatenliste = document.getElementById('zutatenliste');
             var zutaten = zutatenliste.getElementsByTagName('li');
-    
+
             for (var i = 0; i < zutaten.length; i++) {
                 var originalZutat = parseFloat(zutaten[i].getAttribute('data-original'));
                 var neueMenge = originalZutat * portionen;
