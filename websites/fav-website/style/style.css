@@ -1,0 +1,234 @@
+/* Stil wird definiert */
+/* Hier beginnt die Definition des Stils für den body der Webseite */
+body {
+  font-size: medium; /* Die Schriftgröße wird auf medium festgelegt */
+  font-family: 'Roboto', sans-serif; /* Die Schriftart wird auf Roboto oder eine sans-serif Schriftart festgelegt */
+  background-color: #f0f0f0; /* Die Hintergrundfarbe wird auf ein helles Grau (#f0f0f0) gesetzt */
+  background-image: url("../media/fluid.jpg"); /* Eine Hintergrundbild-URL wird festgelegt */
+  border-radius: 10px; /* Ein abgerundeter Rand mit 10 Pixeln wird hinzugefügt */
+  background-repeat: no-repeat; /* Das Hintergrundbild wird nicht wiederholt */
+  background-size: cover; /* Das Hintergrundbild wird so skaliert, dass es den gesamten Bereich abdeckt */
+  background-attachment: fixed; /* Das Hintergrundbild bleibt beim Scrollen fixiert */
+}
+
+/* Hier beginnt die Definition des Stils für den Hauptbereich (.main) */
+.main{
+  display: flex; /* Der Hauptbereich wird als Flexbox angezeigt */
+  flex: 1; /* Der Hauptbereich nimmt so viel Platz wie möglich ein */
+  margin: 5px; /* Ein 5px-Rand um den Hauptbereich wird hinzugefügt */
+}
+
+/* Hier beginnt die Definition des Stils für Überschriften (h1) */
+h1 {
+  text-align: center; /* Der Text der Überschrift wird zentriert */
+  color: #ffffff; /* Die Textfarbe wird auf Weiß gesetzt */
+  background-color: #34abe7e3; /* Die Hintergrundfarbe wird auf ein transparentes Blau (#34abe7e3) gesetzt */
+  padding: 20px; /* Ein 20px-Padding um den Text wird hinzugefügt */
+  margin: 0; /* Der Standardabstand der Überschrift wird entfernt */
+  border-radius: 10px; /* Ein abgerundeter Rand mit 10 Pixeln wird hinzugefügt */
+}
+
+/* Hier beginnt die Definition des Stils für Überschriften (h3) */
+h3 {
+  text-align: center; /* Der Text der Überschrift wird zentriert */
+  color: #ffffff; /* Die Textfarbe wird auf Weiß gesetzt */
+  background-color: #0088ccc7; /* Die Hintergrundfarbe wird auf ein transparentes Blau (#0088ccc7) gesetzt */
+  padding: 15px; /* Ein 15px-Padding um den Text wird hinzugefügt */
+  margin: 0; /* Der Standardabstand der Überschrift wird entfernt */
+}
+
+/* Hier beginnt die Definition des Stils für Überschriften (h4) */
+h4 {
+  text-align: center; /* Der Text der Überschrift wird zentriert */
+  color: #ffffff; /* Die Textfarbe wird auf Weiß gesetzt */
+  background-color: #0088ccc7; /* Die Hintergrundfarbe wird auf ein transparentes Blau (#0088ccc7) gesetzt */
+  padding: 15px; /* Ein 15px-Padding um den Text wird hinzugefügt */
+  margin: 0; /* Der Standardabstand der Überschrift wird entfernt */
+  text-align: center; /* Der Text der Überschrift wird zentriert */
+  color: #ffffff; /* Die Textfarbe wird auf Weiß gesetzt */
+  background-color: #0088ccc7; /* Die Hintergrundfarbe wird auf ein transparentes Blau (#0088ccc7) gesetzt */
+  padding: 20px; /* Ein 20px-Padding um den Text wird hinzugefügt */
+  margin-top: 30%; /* Ein Top-Abstand von 30% wird gesetzt */
+  font-size: medium; /* Die Schriftgröße wird auf medium festgelegt */
+  font-family: 'Roboto', sans-serif; /* Die Schriftart wird auf Roboto oder eine sans-serif Schriftart festgelegt */
+  border-radius: 10px; /* Ein abgerundeter Rand mit 10 Pixeln wird hinzugefügt */
+}
+
+/* Hier beginnt die Definition des Stils für den Hauptcontainer (.container_1) */
+.container_1 {
+  width: 80%; /* Die Breite des Containers wird auf 80% des verfügbaren Bereichs festgelegt */
+  margin: 0 auto; /* Der Container wird horizontal zentriert */
+}
+
+/* Hier beginnt die Definition des Stils für die linke Bildklasse (.dImage_1) */
+.dImage_1 {
+  float: left; /* Das Bild wird links ausgerichtet */
+  margin-left: 2%; /* Ein 2% Margin auf der linken Seite des Bildes wird hinzugefügt */
+}
+
+/* Hier beginnt die Definition des Stils für die rechte Bildklasse (.dImage_2) */
+.dImage_2 {
+  float: right; /* Das Bild wird rechts ausgerichtet */
+  margin-right: 2%; /* Ein 2% Margin auf der rechten Seite des Bildes wird hinzugefügt */
+}
+
+/* Hier beginnt die Definition des Stils für Bilder innerhalb der Klasse .dImage */
+.dImage img {
+  width: 45%; /* Die Breite des Bildes wird auf 45% des verfügbaren Bereichs festgelegt */
+  border-radius: 10px; /* Ein abgerundeter Rand mit 10 Pixeln wird hinzugefügt */
+  margin-top: 4%; /* Ein Top-Abstand von 4% wird gesetzt */
+}
+
+/* Hier beginnt die Definition des Stils für Posts (.post) */
+.post {
+  background-color: #ffffffc0; /* Die Hintergrundfarbe des Posts wird auf ein halbtransparentes Weiß (#ffffffc0) gesetzt */
+  padding: 20px; /* Ein 20px-Padding um den Post wird hinzugefügt */
+  margin: 20px; /* Ein 20px-Rand um den Post wird hinzugefügt */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Ein Schatten wird dem Post hinzugefügt */
+  border-radius: 10px; /* Ein abgerundeter Rand mit 10 Pixeln wird hinzugefügt */
+}
+
+/* Hier beginnt die Definition des Stils für Post-Titel (.post-title) */
+.post-title {
+  font-size: 30px; /* Die Schriftgröße wird auf 30 Pixel festgelegt */
+  color: #0088cc; /* Die Textfarbe wird auf ein helles Blau (#0088cc) gesetzt */
+}
+
+/* Hier beginnt die Definition des Stils für Post-Datum (.post-date) */
+.post-date {
+  font-size: 14px; /* Die Schriftgröße wird auf 14 Pixel festgelegt */
+  color: #505050; /* Die Textfarbe wird auf ein dunkles Grau (#505050) gesetzt */
+  margin-left: 90%; /* Ein Linker-Abstand von 90% wird gesetzt */
+}
+
+/* Hier beginnt die Definition des Stils für Post-Inhalte (.post-content) */
+.post-content {
+  font-size: 18px; /* Die Schriftgröße wird auf 18 Pixel festgelegt */
+  color: #000000; /* Die Textfarbe wird auf Schwarz gesetzt */
+  line-height: 1.5; /* Der Zeilenabstand wird auf 1.5 festgelegt */
+}
+
+/* Hier beginnt die Definition des Stils für Werbung (.ad) */
+.ad {
+  width: 200px; /* Die Breite der Werbung wird auf 200 Pixel festgelegt */
+  height: 600px; /* Die Höhe der Werbung wird auf 600 Pixel festgelegt */
+  position: fixed; /* Die Werbung wird an einer festen Position platziert */
+  top: 50%; /* Die Werbung wird vertikal zentriert */
+  transform: translateY(-50%); /* Die Werbung wird um die Hälfte ihrer Höhe nach oben verschoben */
+  border: 1px solid black; /* Ein schwarzer Rahmen wird um die Werbung hinzugefügt */
+  background-color: white; /* Die Hintergrundfarbe der Werbung wird auf Weiß gesetzt */
+}
+
+/* Hier beginnt die Definition des Stils für die linke Werbung (.ad-left) */
+.ad-left {
+  left: 0; /* Die linke Werbung wird ganz links platziert */
+}
+
+/* Hier beginnt die Definition des Stils für die rechte Werbung (.ad-right) */
+.ad-right {
+  right: 0; /* Die rechte Werbung wird ganz rechts platziert */
+}
+
+/* Hier beginnt die Definition des Stils für den Inhalt der Werbung (.ad-content) */
+.ad-content {
+  text-align: center; /* Der Text wird zentriert */
+  font-family: Arial, sans-serif; /* Die Schriftart wird auf Arial oder eine sans-serif Schriftart festgelegt */
+  font-size: 20px; /* Die Schriftgröße wird auf 20 Pixel festgelegt */
+  color: black; /* Die Textfarbe wird auf Schwarz gesetzt */
+  padding: 10px; /* Ein 10px-Padding um den Text wird hinzugefügt */
+}
+
+/* Hier beginnt die Definition des Stils für die Navigation (nav) */
+nav {
+  background-color: #0088ccb0; /* Die Hintergrundfarbe der Navigation wird auf ein transparentes Blau (#0088ccb0) gesetzt */
+  padding: 2px; /* Ein 2px-Padding um die Navigation wird hinzugefügt */
+  margin-bottom: 2px; /* Ein 2px-Rand am unteren Rand der Navigation wird hinzugefügt */
+  background-repeat: no-repeat; /* Das Hintergrundbild der Navigation wird nicht wiederholt */
+  background-size: cover; /* Das Hintergrundbild der Navigation wird so skaliert, dass es den gesamten Bereich abdeckt */
+  background-attachment: fixed; /* Das Hintergrundbild der Navigation bleibt beim Scrollen fixiert */
+  border-radius: 10px; /* Ein abgerundeter Rand mit 10 Pixeln wird hinzugefügt */
+}
+
+/* Hier beginnt die Definition des Stils für die Navigationselemente (nav ul) */
+nav ul {
+  list-style-type: none; /* Die Standardliste wird entfernt */
+  margin: 0; /* Der Standardrand wird entfernt */
+  padding: 0; /* Der Standardpadding wird entfernt */
+  display: flex; /* Die Navigationselemente werden als Flexbox angezeigt */
+  flex-wrap: wrap; /* Die Navigationselemente können in eine neue Zeile umbrechen */
+  justify-content: space-between; /* Die Navigationselemente werden gleichmäßig über den verfügbaren Bereich verteilt */
+  border-radius: 10px; /* Ein abgerundeter Rand mit 10 Pixeln wird hinzugefügt */
+}
+
+/* Hier beginnt die Definition des Stils für die Links in der Navigation (nav li a) */
+nav li a {
+  display: block; /* Die Links werden als Blockelemente dargestellt */
+  color: #ffffff; /* Die Textfarbe der Links wird auf Weiß gesetzt */
+  text-align: center; /* Der Text der Links wird zentriert */
+  padding: 14px 16px; /* Ein Padding um die Links wird hinzugefügt */
+  text-decoration: none; /* Die Unterstreichung der Links wird entfernt */
+  font-size: 17px; /* Die Schriftgröße der Links wird auf 17 Pixel festgelegt */
+  border-radius: 10px; /* Ein abgerundeter Rand mit 10 Pixeln wird hinzugefügt */
+}
+
+/* Hier beginnt die Definition des Stils für die Hover-Zustände der Links in der Navigation (nav li a:hover) */
+nav li a:hover {
+  background-color: #dddddd00; /* Die Hintergrundfarbe der Links wird beim Hover auf ein transparentes Grau (#dddddd00) gesetzt */
+  border-radius: 10px; /* Ein abgerundeter Rand mit 10 Pixeln wird hinzugefügt */
+}
+
+/* Hier beginnt die Definition des Stils für den Hover-Effekt der Navigation (nav .nav) */
+.nav {
+  position: relative; /* Die Navigationselemente haben eine relative Position */
+  display: inline-block; /* Die Navigationselemente werden als Inline-Blockelemente dargestellt */
+  padding: 10px 20px; /* Ein Padding um die Navigationselemente wird hinzugefügt */
+  color: #ffffff00; /* Die Textfarbe der Navigationselemente wird auf transparent gesetzt */
+  text-transform: uppercase; /* Der Text der Navigationselemente wird in Großbuchstaben umgewandelt */
+  letter-spacing: 4px; /* Der Buchstabenspacing wird auf 4 Pixel festgelegt */
+  text-decoration: none; /* Die Unterstreichung der Navigationselemente wird entfernt */
+  font-size: 30px; /* Die Schriftgröße der Navigationselemente wird auf 30 Pixel festgelegt */
+  overflow: hidden; /* Ein Überlauf wird verhindert */
+  transition: 0.2s; /* Eine 0.2 Sekunden-Transition wird hinzugefügt */
+  border-radius: 10px; /* Ein abgerundeter Rand mit 10 Pixeln wird hinzugefügt */
+}
+
+/* Hier beginnt die Definition des Stils für den Hover-Effekt der Navigation (nav .nav:hover) */
+.nav:hover {
+  color: #ffffff; /* Die Textfarbe der Navigationselemente wird auf Weiß gesetzt */
+  background: #0088cce1; /* Die Hintergrundfarbe der Navigationselemente wird auf ein transparentes Blau (#0088cce1) gesetzt */
+  box-shadow: 0 0 10px #0088cc, 0 0 40px #0088cc, 0 0 80px #0088cc; /* Ein Schatten wird hinzugefügt */
+  transition-delay: 1s; /* Eine Verzögerung der Transition wird hinzugefügt */
+}
+
+/* Hier beginnt die Definition des Stils für die Spans innerhalb des Hover-Effekts der Navigation (nav .nav span) */
+.nav span {
+  position: absolute; /* Die Spans haben eine absolute Position */
+  display: block; /* Die Spans werden als Blockelemente dargestellt */
+}
+
+/* Hier beginnt die Definition des Stils für den Hover-Effekt der Navigation (nav .nav:hover span:nth-child(1)) */
+.nav:hover span:nth-child(1) {
+  left: 100%; /* Der erste Span wird 100% nach rechts verschoben */
+  transition: 1s; /* Eine 1 Sekunde-Transition wird hinzugefügt */
+}
+
+/* Hier beginnt die Definition des Stils für den Hover-Effekt der Navigation (nav .nav:hover span:nth-child(3)) */
+.nav:hover span:nth-child(3) {
+  right: 100%; /* Der dritte Span wird 100% nach rechts verschoben */
+  transition: 1s; /* Eine 1 Sekunde-Transition wird hinzugefügt */
+  transition-delay: 0.5s; /* Eine Verzögerung der Transition wird hinzugefügt */
+}
+
+/* Hier beginnt die Definition des Stils für den Hover-Effekt der Navigation (nav .nav:hover span:nth-child(2)) */
+.nav:hover span:nth-child(2) {
+  top: 100%; /* Der zweite Span wird 100% nach unten verschoben */
+  transition: 1s; /* Eine 1 Sekunde-Transition wird hinzugefügt */
+  transition-delay: 0.25s; /* Eine Verzögerung der Transition wird hinzugefügt */
+}
+
+/* Hier beginnt die Definition des Stils für den Hover-Effekt der Navigation (nav .nav:hover span:nth-child(4)) */
+.nav:hover span:nth-child(4) {
+  bottom: 100%; /* Der vierte Span wird 100% nach oben verschoben */
+  transition: 1s; /* Eine 1 Sekunde-Transition wird hinzugefügt */
+  transition-delay: 0.75s; /* Eine Verzögerung der Transition wird hinzugefügt */
+}

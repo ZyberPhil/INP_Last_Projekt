@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Rezepte</title>
+</head>
+<body>
+    <header>
+        <h1>Modernes Rezepte</h1>
+    </header>
+    <!--
+        <nav>
+        <a href="#">Startseite</a>
+        <a href="#">Rezepte</a>
+        <a href="#">Über uns</a>
+        <a href="#">Kontakt</a>
+    </nav>
+    
+-->
+    <div class="container">
+        <div class="recipe">
+            <h2>Spaghetti Carbonara</h2>
+            <p>Ein klassisches italienisches Gericht, das schnell und einfach zuzubereiten ist.</p>
+            <label for="portionen">Portionen:</label>
+            <input type="number" id="portionen" value="1" min="1" oninput="aktualisiereZutatenliste()">
+            <p>Zutaten:</p>
+            <ul id="zutatenliste">
+                <li data-original="100  ">g Spaghetti</li>
+                <li data-original="150  ">g Speck</li>
+                <li data-original="2    "> Eier</li>
+                <li data-original="50   ">g Parmesan</li>
+                <li data-original="1    ">Priese/n Pfeffer</li>
+                <li data-original="1    ">Priese/n Salz</li>
+            </ul>
+            
+    <img class="img-links" src="/image/image.png"/>
+            <p>Zubereitung:</p>
+            <ol>
+                <li>Spaghetti in kochendem Salzwasser al dente kochen.</li>
+                <li>Speck in einer Pfanne knusprig braten.</li>
+                <li>Eier in einer Schüssel verquirlen, Parmesan und Pfeffer hinzufügen.</li>
+                <li>Die gekochten Spaghetti abgießen und sofort in die Pfanne mit dem Speck geben.</li>
+                <li>Die Ei-Parmesan-Mischung über die Spaghetti gießen und gut vermengen, bis die Sauce cremig ist.</li>
+                <li>Mit Salz und zusätzlichem Pfeffer abschmecken und servieren.</li>
+            </ol>
+
+    <img class="img-rechts" src="/image/Pasta.jpg"/>
+ <div class="clearer"></div>
+    </div>
+
+</div>
+    
+    <footer>
+    </footer>
+
+    <script>    
+        var portionen = document.getElementById('portionen').value;
+        var zutatenliste = document.getElementById('zutatenliste');
+        var zutaten = zutatenliste.getElementsByTagName('li');
+    
+    
+        for (var i = 0; i < zutaten.length; i++) {
+            var originalZutat = parseFloat(zutaten[i].getAttribute('data-original'));
+            var neueMenge = originalZutat * portionen;
+            zutaten[i].textContent = neueMenge + " " + zutaten[i].textContent.replace(/^\d+\s/, "");
+        }
+        function aktualisiereZutatenliste() {
+            var portionen = document.getElementById('portionen').value;
+            var zutatenliste = document.getElementById('zutatenliste');
+            var zutaten = zutatenliste.getElementsByTagName('li');
+    
+            for (var i = 0; i < zutaten.length; i++) {
+                var originalZutat = parseFloat(zutaten[i].getAttribute('data-original'));
+                var neueMenge = originalZutat * portionen;
+                zutaten[i].textContent = neueMenge + " " + zutaten[i].textContent.replace(/^\d+\s/, "");
+            }
+        }
+    </script>
+</body>
+</html>

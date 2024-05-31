@@ -1,0 +1,106 @@
+.clearer{
+    clear: both;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #444;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.recipe {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.recipe h2 {
+    color: #333;
+}
+
+.recipe p {
+    color: #666;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    margin: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.img-links{
+    max-width: 130px;
+    max-height: 184.5px;
+    width: 15%;
+
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+    float: left;
+}
+.img-rechts{
+    max-width: 130px;
+    max-height: 184.5px;
+    width: 15%;
+
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+    float: right;
+}
+@media screen and (max-width: 1830px) {
+    .img-links{
+        max-width: 130px;
+        max-height: 184.5px;
+        width: 15%;
+        display: flex;
+        max-width: 50%;
+        margin: 20px;
+        margin-top: -15%;
+        margin-left: -20%;
+        border-radius: 5%;
+        -webkit-border-radius: 5%;
+        -moz-border-radius: 5%;
+        -ms-border-radius: 5%;
+        -o-border-radius: 5%;
+    }
+}
