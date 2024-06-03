@@ -1,0 +1,25 @@
+Farben:
+      Brückenblau: #4A7B9D
+      Laubgrün: #6B8E23
+      Seerosenrosa: #D2829F
+      Wasserspiegelungsgelb: #D9C85C
+      Schattengrün: #2F4F2F
+
+contact.html:
+            - Farben umsetzen
+            - Verlinkungen der Nav, etc.
+            - Designtechnisch überlegen was zu machen
+
+projects.html:
+            - Farben umsetzen
+            - Verlinkungen der Nav, etc.
+            - Bilder einfügen
+            - Designtechnisch überlegen was zu machen
+            - Sprache zu Deutsch (lang="de" und übersetzen)
+
+seerosen.html:
+            - Farben umsetzen
+            - Verlinkungen der Nav, etc.
+            - Bilder einfügen (Mann jetzt => Künstler oder berühmtestes Werk)
+            - Designtechnisch überlegen was zu machen
+            - Sprache zu Deutsch (lang="de" und übersetzen)
