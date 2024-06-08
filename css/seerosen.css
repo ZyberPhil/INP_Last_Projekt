@@ -1,4 +1,54 @@
+/*Eigene CSS*/
 @charset "UTF-8";
+/* Custom Colors*/
+:root {
+  --bs-brückenblau: #4A7B9D; !important;
+  --bs-laubgrün: #6B8E23; !important;
+  --bs-seerosenrosa: #D2829F; !important;
+  --bs-wasserspiegelungsgelb: #D9C85C; !important;
+  --bs-schattengrün: #2F4F2F; !important;
+}
+/* Hintergründe */
+body{
+  background-image: url("https://wallpapercave.com/wp/wp2918052.jpg"); !important;
+}
+.old-bg{
+  background-image: url("https://wallpapercave.com/wp/wp2918052.jpg"); !important;
+}
+.old-light{
+  background-image: url("https://wallpaper-house.com/data/out/6/wallpaper2you_118914.jpg"); !important;
+}
+
+/*Text Farben*/
+.text-muted-brückenblau {
+  --bs-text-opacity: 1;
+  color: #4A7B9D !important;
+}
+.text-muted-laubgrün {
+  --bs-text-opacity: 1;
+  color: #6B8E23 !important;
+}
+.text-muted-seerosenrosa {
+  --bs-text-opacity: 1;
+  color: #D2829F !important;
+}
+.text-muted-wasserspiegelungsgelb {
+  --bs-text-opacity: 1;
+  color: #D9C85C !important;
+}
+.text-muted-schattengrün {
+  --bs-text-opacity: 1;
+  color: #2F4F2F !important;
+}
+.text-muted-white {
+  --bs-text-opacity: 1;
+  color: #ffffff !important;
+}
+.text-primary-seerosenrosa {
+  --bs-text-opacity: 1;
+  color: #D2829F, var(--bs-text-opacity) !important;
+}
+/*Bootstrap*/
 /*!
 * Start Bootstrap - Personal v1.0.1 (https://startbootstrap.com/template-overviews/personal)
 * Copyright 2013-2023 Start Bootstrap
@@ -11,6 +61,14 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
+  /* Custom Colors */
+  --bs-brückenblau: #4A7B9D; !important;
+  --bs-laubgrün: #6B8E23; !important;
+  --bs-seerosenrosa: #D2829F; !important;
+  --bs-wasserspiegelungsgelb: #D9C85C; !important;
+  --bs-schattengrün: #2F4F2F; !important;
+
+  /* Bootstrap */
   --bs-blue: #1e30f3;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
