@@ -10,7 +10,10 @@
 }
 /* Hintergründe */
 body{
-  background-image: url("https://wallpapercave.com/wp/wp2918052.jpg"); !important;
+  background-image: url("../img/old-light.jpg"); !important;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 .old-bg{
   background-image: url("https://wallpapercave.com/wp/wp2918052.jpg"); !important;
@@ -48,6 +51,54 @@ body{
   --bs-text-opacity: 1;
   color: #D2829F, var(--bs-text-opacity) !important;
 }
+.text-gradient-custom-green {
+  background: -webkit-linear-gradient(315deg, #2F4F2F 0%, #6B8E23 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.text-gradient-custom-rosa {
+  background: -webkit-linear-gradient(315deg, #4A7B9D 0%, #D2829F 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.text-gradient-custom-yellow {
+  background: -webkit-linear-gradient(315deg, #D9C85C 0%, #6B8E23 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.bg-gradient-primary-to-secondary-custom-yellow {
+  background: #1e30f3;
+  background: linear-gradient(135deg, #D9C85C 0%, #6B8E23 100%);
+}
+
+/* Custom Methods */
+
+.fix{
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+}
+
+/* Breakpoints */
+@media only screen and (min-width: 382px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*Bootstrap*/
 /*!
 * Start Bootstrap - Personal v1.0.1 (https://startbootstrap.com/template-overviews/personal)
